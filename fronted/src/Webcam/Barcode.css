@@ -1,0 +1,55 @@
+ 
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+
+
+  button {
+     
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(98, 209, 209);
+    transition: background-color 0.3s ease; 
+    margin-right: 10px;
+    /* Add transition for smoother effect */
+  }
+  
+  button:hover {
+    background-color: #555; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
+  .generate-btn {
+    background-color: #4caf50;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .clear-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .barcode{
+    margin-left: 100px;
+  }

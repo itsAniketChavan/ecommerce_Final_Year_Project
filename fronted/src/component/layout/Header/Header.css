@@ -1,0 +1,60 @@
+
+ /* Header.css */
+
+header {
+  background-color: #0793ca;
+  padding: 10px 0;
+  /* position: sticky; Make the header sticky */
+  top: 0; /* Stick it to the top of the viewport */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-brand a {
+  color: #db9e1c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.navbar-brand img {
+  height: 55px; /* Set the height of the logo */
+  width: auto; /* Allow the width to adjust proportionally */
+}
+
+.navbar-nav {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item a {
+  color: #fbfcfc;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  color: #080706;
+}
+
+
+
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 3vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
